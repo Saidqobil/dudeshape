@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    height: 70px;
+}
+.logo{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #164444FF;
+}
+.nav-middle{
+    display: flex;
+}
+.nav-middle div{
+    margin: 0 30px;
+    font-size: 25px;
+}
+.nav-right{
+    display: flex;
+}
+.nav-right i{
+    margin: 0 10px;
+    font-size: 28px;
+}
+.container2{
+    display: flex;
+}
+.chair img{
+    width: 570px;
+}
+.xabar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 130px;
+    width: 930px;
+    height: 856px;
+    background: #164444FF;
+}
+.xabar h1{
+    color: white;
+    font-size: 80px;    
+}
+.xabar p{
+    color: white;
+    font-size: 20px;
+    margin: 50px 0;
+}
+button{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+}
+.container3{
+    margin: 150px 0;
+}
+.container3 h2{
+    text-align: center;
+    font-size: 40px;
+    color: #164444FF;
+    font-family: sans-serif;
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log0 img{
+    margin: 0 40px;
+}
+.a1 img{
+    width: 200px;
+}
+.a2 img{
+    width: 130px;
+    
+}
+.a3 img{
+    width: 150px;
+}
+.a4 img{
+    width: 200px;
+}
+.a5 img{
+    width: 130px;
+}
+.a6 img{
+    width: 150px;
+}
+.halll{
+    position: relative; 
+}
+.hall img{
+    width: 750px;
+    height: 750px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 10;
+}
+.kvadrat{
+    width: 750px;
+    min-height: 750px;
+    background: #DEE4E2FF;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.container4{
+    display: flex;
+    justify-content: space-between;
+}
+.xabar2{
+    width: 550px;
+}
+.xabar2 h2{
+    font-size: 50px;
+    color: #164444FF;
+    font-family: sans-serif;
+}
+.xabar2 p{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.container5{
+    display: flex;
+    margin: 50px 0;
+}
+.container5 div i{
+    font-size: 50px;
+    color: #164444FF;
+    margin-right: 20px;
+}
+.xabar3 h3{
+    font-size: 27px;
+    font-family: sans-serif;
+    color: #164444FF;
+}
+.xabar3 p{
+    margin: 10px 0;
+}
